@@ -1,2 +1,2 @@
-name = "Cedd"
-print(len(name))
+name = "Cedd is great!"
+print("weak" not in name)
