@@ -1,2 +1,2 @@
-name = "Cedd is great!"
-print("weak" not in name)
+a = "Hello world!"
+print(a[-7:-1])
