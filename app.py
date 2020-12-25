@@ -1,2 +1,2 @@
-a = "Hello world!"
-print(a[-7:-1])
+x = 23
+print(isinstance(x, str))
