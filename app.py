@@ -1,2 +1,3 @@
-x = 23
-print(isinstance(x, str))
+myFruits = ["banana", "Mango", "Kiwi", "apple"]
+x = myFruits.index("apple")
+print(x)
