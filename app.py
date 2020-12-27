@@ -1,3 +1,4 @@
-myFruits = ["banana", "Mango", "Kiwi", "apple"]
-x = myFruits.index("apple")
-print(x)
+fruits = ("banana", "mango", "grapes", "watermelon", "avocado")
+vegetables = ("carrot", "squash", "potato")
+a = fruits.index("grapes")
+print(a)
