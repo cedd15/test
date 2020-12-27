@@ -1,4 +1,4 @@
-fruits = ("banana", "mango", "grapes", "watermelon", "avocado")
-vegetables = ("carrot", "squash", "potato")
-a = fruits.index("grapes")
-print(a)
+fruitSet = {"mango", "avocado", "guyabano"}
+veggieSet = {"potato", "squash", "mango"}
+fruitSet.difference_update(veggieSet)
+print(fruitSet)
