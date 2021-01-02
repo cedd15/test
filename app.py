@@ -3,5 +3,8 @@ dict = {
     "size": "large",
     "texture": "fresh"
 }
+if "price" in dict:
+    print("Yes, the price is available.\n")
 
-print(dict)
+else:
+    print("No price\n")
