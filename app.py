@@ -1,4 +1,7 @@
-fruitSet = {"mango", "avocado", "guyabano"}
-veggieSet = {"potato", "squash", "mango"}
-fruitSet.difference_update(veggieSet)
-print(fruitSet)
+dict = {
+    "fruit": "apple",
+    "size": "large",
+    "texture": "fresh"
+}
+
+print(dict)
