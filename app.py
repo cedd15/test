@@ -1,5 +1,5 @@
 fruits = ["apple", "mango", "grapes"]
 for x in fruits:
     if x == "mango":
-        break
+        continue
     print(x)
