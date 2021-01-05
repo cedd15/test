@@ -1,11 +1,7 @@
-name = ["John", "Adam", "Mike"]
-age =  [10, 11, 13]
+for x in [1, 2, 5]:
+    pass
 
-for x in name:
-    for y in age:
-        print(x, y)
+#for loops cannot be empty,
+# but if you for some reason have a for loop with no content,
+# put in the pass statement to avoid getting an error.
 
-#A nested loop is a loop inside a loop.
-
-#The "inner loop" will be executed one time
-# for each iteration of the "outer loop"
