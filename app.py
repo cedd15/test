@@ -1,9 +1,11 @@
-for x in range(6):
-        print(x)
-else:
-    print("Done!")
+name = ["John", "Adam", "Mike"]
+age =  [10, 11, 13]
 
-#The else keyword in a for loop
-#specifies a block of code to be executed
-#when the loop is finished:
+for x in name:
+    for y in age:
+        print(x, y)
 
+#A nested loop is a loop inside a loop.
+
+#The "inner loop" will be executed one time
+# for each iteration of the "outer loop"
