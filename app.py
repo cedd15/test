@@ -1,6 +1,5 @@
-i = 1
-while i < 6:
-    print(i)
-    i += 1
-else:
-    print("i is no longer than 5")
+fruits = ["apple", "mango", "grapes"]
+for x in fruits:
+    if x == "mango":
+        break
+    print(x)
