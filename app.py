@@ -26,3 +26,6 @@ class Student(Person):
 
 x = Student("Mike", 20, "Manila")
 x.comp()
+
+
+# another test
