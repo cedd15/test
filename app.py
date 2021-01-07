@@ -1,8 +1,13 @@
-def myfunc(x):
-    return lambda a: a * x
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-mydoubler = myfunc(2) #variable "mydoubler" is used to name the lambda
-#the value of this variable is the function which should have an argument and that is 2
+    def intro(self):
+        print("Hi, my name is " + self.name)
+        print("I am " + str(self.age)) # can't concatenate int to string hence the use of str()
 
+p1 = Person("John", 36)
 
-print(mydoubler(5)) #we are now calling lambda with another argument
+p1.intro()
+
