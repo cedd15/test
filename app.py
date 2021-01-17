@@ -1,7 +1,11 @@
 import json
 
-x = '{"name":"John", "age":30, "city":"New York"}'
+x = {
+    "name": "Cedd",
+    "age": 24,
+    "city": "Manila"
+}
 
-y = json.loads(x)
+y = json.dumps(x)
 
-print(y["age"])
+print(y)
